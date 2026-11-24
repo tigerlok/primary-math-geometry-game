@@ -23,5 +23,15 @@
 3. 改完必须运行 `node tests/check.js`，错误为 0 才能提交。
 4. 用户提供的书上例题：原题文字和插图不得进仓库。只在 `docs/problem-registry.md` 记录思路与出处，游戏里重新出数、重画图。
 
+## 上传与发布流程
+- 改动放在新分支上，推送后用 `gh api repos/tigerlok/primary-math-geometry-game/pulls` 建合并请求（这里不能用 `gh pr create`）。
+- 用户在 GitHub 网页上点 “Merge pull request” 合并。合并到 main 后，GitHub Pages 自动更新网址上的游戏。
+- 网址：https://tigerlok.github.io/primary-math-geometry-game/
+- 每批工作结束后更新 `docs/progress.md`。
+
+## 开始工作前先读
+- `docs/progress.md`：做到哪里、未了事项、下一步。
+- `docs/problem-registry.md`：用户补充的题目。
+
 ## 路线
 阶段 0–2 已完成。待做：拓展栏“不求也能算”（首批三题见登记表）→ 阶段 3（拖动梯形变形）→ 阶段 4 → 阶段 5–6（通项）。
