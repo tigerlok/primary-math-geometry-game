@@ -40,6 +40,7 @@ A free browser game that leads primary school students from comparing areas with
 | `js/ui.js` | 界面与进度保存 |
 | `tests/check.js` | 自动核对程序 |
 | `docs/problem-registry.md` | 题目登记表 |
+| `docs/progress.md` | 进度与摘要 |
 
 没有任何需要安装的依赖，把整个文件夹放到任何能托管网页的地方即可运行。
 
